@@ -90,13 +90,13 @@ const Collection = () => {
     <div className='flex flex-col sm:flex-row gap-1 sm:gap-10 pt-10 '>
         {/* FILTER OPTIONS */}
         <div className='min-w-60'>
-              <p onClick={handleFilters} className='sticky top-[6rem] text-xl my-2 flex items-center gap-2 cursor-pointer'>
+              <p onClick={handleFilters} className='text-xl my-2 flex items-center gap-2 cursor-pointer'>
                 FILTERS
                 <img className={`w-3 sm:hidden ${showFilter ? "rotate-90" : ""}`} src={assets.drop} alt="" />
               </p>
 
               {/* Category  */}
-              <div className={`border sticky top-[10rem] border-gray-300 pl-5 py-3 mt-6 ${showFilter ? "" : "hidden"} sm:block`}>
+              <div className={`border border-gray-300 pl-5 py-3 mt-6 ${showFilter ? "" : "hidden"} sm:block`}>
                 <p className='mb-3 text-sm font-medium'>CATEGORIES</p>
                 <div className='flex flex-col gap-2 text-sm font-light'>
                   <p className='flex gap-2 text-center'>
@@ -116,8 +116,8 @@ const Collection = () => {
 
 
               {/* SUBCATEGORY FILTERS */}
-              <div className={`sticky top-[21rem] border border-gray-300 pl-5 py-3 my-4 ${showFilter ? "" : "hidden"} sm:block`}>
-                <p className='mb-3 text-sm font-medium'>TYPE</p>
+              <div className={` border border-gray-300 pl-5 py-3 my-4 ${showFilter ? "" : "hidden"} sm:block`}>
+                <p className='mb-3 text-sm font-medium'>TYPES</p>
                 <div className='flex flex-col gap-2 text-sm font-light'>
                   <p className='flex gap-2 text-center'>
                     <input type="checkbox" value={"Topwear"} onChange={handleSubCategory}/> Topwear
