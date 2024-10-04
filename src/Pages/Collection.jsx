@@ -117,7 +117,7 @@ const Collection = () => {
 
               {/* SUBCATEGORY FILTERS */}
               <div className={` border border-gray-300 pl-5 py-3 my-4 ${showFilter ? "" : "hidden"} sm:block`}>
-                <p className='mb-3 text-sm font-medium'>TYPES</p>
+                <p className='mb-3 text-sm font-medium'>TYPE</p>
                 <div className='flex flex-col gap-2 text-sm font-light'>
                   <p className='flex gap-2 text-center'>
                     <input type="checkbox" value={"Topwear"} onChange={handleSubCategory}/> Topwear
