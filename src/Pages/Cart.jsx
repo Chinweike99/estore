@@ -41,7 +41,7 @@ const Cart = () => {
 
 
   return (
-    <div className='border-t pt-14'>
+    <div className='border-t pt-14 '>
         <div className='text-2xl mb-3'>
           <Title text1={"YOUR"} text2={"CART"} />
         </div>
@@ -72,7 +72,7 @@ const Cart = () => {
           }
         </div>
 
-        <div className='flex justify-end my-20'>
+        <div className='flex justify-end mt-10 mb-[50rem]'>
           <div className='w-full sm:w-[450px] border-2 rounded p-3'>
             <CartTotal />
             <div className='w-full text-end'>
