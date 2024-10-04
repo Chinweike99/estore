@@ -89,8 +89,8 @@ const Navbar = () => {
          </div> */}
 
 
-         <div className={`absolute top-0 right-0 bottom-0 overflow-hidden bg-white tranasition-all ${show ? "w-full" : "w-0"}`}>
-            <div className='flex flex-col text-gray-600 '>
+         <div className={`absolute top-0 right-0  overflow-hidden bg-gradient-to-r from-blue-900 via-green-600 to-purple-400  tranasition-all ${show ? "w-full" : "w-0"}`}>
+            <div className='flex flex-col text-white '>
                 <div className='flex items-center p-3 cursor-pointer'>
                     <img onClick={()=>setShow(false)} src={assets.backIcon} alt="" className='h-7'/>
                     <p>Back</p>
