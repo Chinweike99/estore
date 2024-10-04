@@ -5,7 +5,7 @@ import NewsLetterBox from '../Components/NewsLetterBox'
 
 const Contact = () => {
   return (
-    <div>
+    <div className='h-[100%]'>
 
       <div className='prata-regular text-center pt-10 border-t text-2xl'>
         <Title text2={"CONTACT US"} />
