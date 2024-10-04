@@ -95,10 +95,10 @@ const Navbar = () => {
                     <img onClick={()=>setShow(false)} src={assets.backIcon} alt="" className='h-7'/>
                     <p>Back</p>
                 </div>
-                <NavLink onClick={()=>setShow(false)}  to={'/'} className='py-2 text-center border'>Home</NavLink>
-                <NavLink onClick={()=>setShow(false)}  to={'/collection'} className='py-2 text-center border'>Collection</NavLink>
-                <NavLink onClick={()=>setShow(false)}  to={'/contact'}  className='py-2 text-center border'>Contact</NavLink>
-                <NavLink onClick={()=>setShow(false)}  to={'/about'}  className='py-2 text-center border'>About</NavLink>
+                <NavLink onClick={()=>setShow(false)}  to={'/'} className='py-2 text-center '>Home</NavLink>
+                <NavLink onClick={()=>setShow(false)}  to={'/collection'} className='py-2 text-center '>Collection</NavLink>
+                <NavLink onClick={()=>setShow(false)}  to={'/contact'}  className='py-2 text-center '>Contact</NavLink>
+                <NavLink onClick={()=>setShow(false)}  to={'/about'}  className='py-2 text-center '>About</NavLink>
             </div>
          </div>
 
